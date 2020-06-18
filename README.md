@@ -8,6 +8,8 @@ This is a web based application built to simplify building a personal frontend w
 
 The setup at the moment is a little tedious. However, I will try to make the process as simple as possible. After the setup, the rest will be a breeze. The end goal is to have multiple components that you the user can pick and choose to add into your website by entering a few words in the config file.
 
+A sample of the website can be found on https://fangpinsern.github.io/PersonalResumeWebsite/
+
 ## User Guide
 
 ### 1. How to set the webpage up?

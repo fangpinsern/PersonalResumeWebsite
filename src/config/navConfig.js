@@ -1,3 +1,3 @@
 export const navConfig = {
-  navHeaderName: "PageName", //Name that appears on the left of the navbar
+  navHeaderName: "Sample Site", //Name that appears on the left of the navbar
 };
