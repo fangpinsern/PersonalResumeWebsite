@@ -1,0 +1,16 @@
+.educationHeader {
+  /* background-image: url("../../images/headerImage.jpg"); */
+  background-color: #e2b182;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: black;
+}
+
+.educationMain {
+  overflow: auto;
+}

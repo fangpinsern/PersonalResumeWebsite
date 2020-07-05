@@ -1,0 +1,36 @@
+.skillsHeader {
+  /* background-image: url("../../images/headerImage.jpg"); */
+  background-color: #cfb997;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: black;
+}
+
+.skillsMain,
+.skillsMain2 {
+  overflow: auto;
+  margin: 0 2rem;
+}
+
+@media (min-width: 768px) {
+  .skillsMain {
+    overflow: auto;
+    margin: 0 30%;
+  }
+  .skillsMain2 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .skillsMain-left {
+    width: 50%;
+  }
+  .skillsMain-right {
+    width: 50%;
+  }
+}

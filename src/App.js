@@ -14,6 +14,9 @@ import LoadingSpinner from "./shared/modals/LoadingSpinner";
 
 import "./App.css";
 import { generalConfig } from "./config/generalConfig";
+import Skills from "./skills/pages/Skills";
+import Education from "./education/pages/Education";
+import Experience from "./experience/pages/Experience";
 
 // In case you do not want to lazy load
 // import About from "./about/pages/About";
@@ -31,6 +34,9 @@ function App() {
       <Route path="/" exact>
         <Home />
         <About />
+        <Skills />
+        <Education />
+        <Experience />
         <Contact />
       </Route>
       <Route path="/about" exact>

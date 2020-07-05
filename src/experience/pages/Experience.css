@@ -1,0 +1,16 @@
+.experienceHeader {
+  /* background-image: url("../../images/headerImage.jpg"); */
+  background-color: #e1c699;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: black;
+}
+
+.experienceMain {
+  overflow: auto;
+}
