@@ -36,7 +36,7 @@ function Home() {
       <div className="homeHeader">
         <h1>{headerName}</h1>
       </div>
-      <div className="homeMain">
+      {/* <div className="homeMain">
         <div className="homeMainLeft">
           <HomeCard
             src={image1}
@@ -63,7 +63,7 @@ function Home() {
             download={square3.isImageDownload.toLowerCase() === "yes"}
           />
         </div>
-      </div>
+      </div> */}
     </React.Fragment>
   );
 }

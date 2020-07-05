@@ -1,5 +1,5 @@
 export const homeConfig = {
-  homeHeaderName: "Home Header Name", //Name that appears on the top of home page
+  homeHeaderName: "Name", //Name that appears on the top of home page
   square1Title: "Square 1",
   square1Description: "Square 1 Description",
   square1Path: "/",

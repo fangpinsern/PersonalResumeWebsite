@@ -1,8 +1,9 @@
 .contactUs {
   margin-bottom: 0px;
+  overflow: auto;
 }
 
-.contactHeader {
+/* .contactHeader {
   text-align: center;
   margin: 50px;
   width: auto;
@@ -12,13 +13,26 @@
 
 .contactHeader h1 {
   font-size: 3em;
+} */
+
+.contactHeader {
+  /* background-image: url("../../images/headerImage.jpg"); */
+  background-color: #f9e4b7;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: black;
 }
 
 .contactUs .contactUsLeft {
   float: none;
   margin-bottom: 50px;
   text-align: center;
-  justify-content: center
+  justify-content: center;
 }
 
 .contactUs .contactUsLeft a:link,
@@ -29,7 +43,7 @@
 
 .contactUs .contactUsLeft a:hover,
 .contactUs .contactUsLeft a:active {
-  color: #D3D3D3;
+  color: #d3d3d3;
 }
 
 .contactUs .contactUsRight {
@@ -44,20 +58,19 @@
 }
 
 @media (min-width: 768px) {
-  .contactHeader {
+  /* .contactHeader {
     text-align: center;
-    /* margin: 100px 100px 50px 100px; */
+    margin: 100px 100px 50px 100px;
     width: auto;
     padding: 40px;
     background-color: darkorange;
-  }
+  } */
 
   .contactUs .contactUsLeft {
     float: left;
     width: 50%;
     margin-bottom: 50px;
     text-align: center;
-    
   }
 
   .contactUs .contactUsRight {

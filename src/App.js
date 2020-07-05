@@ -30,6 +30,8 @@ function App() {
     <Switch>
       <Route path="/" exact>
         <Home />
+        <About />
+        <Contact />
       </Route>
       <Route path="/about" exact>
         <About />
@@ -47,7 +49,7 @@ function App() {
         <title>{websiteTitle}</title>
       </Helmet>
       <Router>
-        <MainNavigation />
+        {/* <MainNavigation /> */}
         <main>
           <Suspense
             fallback={

@@ -1,5 +1,5 @@
 export const contactConfig = {
-  contactHeaderName: "Contact Us", //Name that appears on the top of contact page
+  contactHeaderName: "Contact Me", //Name that appears on the top of contact page
   contactInformationHeader: "Contact Information",
   phoneNumber: "93505050505",
   email: "pinsernfang@gmail.com",
